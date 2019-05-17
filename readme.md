@@ -40,11 +40,45 @@ After merging these datasets together two forms of the dataset were produced, on
 
 ### Model Interpretation
 
+Model performance was judged on two metrics: accuracy and recall. Accuracy, to gauge the accuracy of the model predictions, and recall because when predicting fire risk we want to reduce the number of false negatives (census tracts predicted not to have a fire in a time period, that end up having fires).
+
+The classification models run on the data aggregated by month did not do signifcantly better than the base fire rate (Fires: 23.7%, No Fires: 76.3%).
+  - Random Forest Classifier
+    - Accuracy: 0.784
+    - Recall: 0.0335
+  - AdaBoost Classifier
+    - Accuracy: 0.836
+    - Recall: 0.203
+  - XG Boost Classifier: 
+    - Accuracy: 0.825
+    - Recall: 0.266
+
+This is likely due to the inherent difficulty of predicting fire risk on a monthly time scale.
+
+The classification models run on the data aggregated by year had much more accurate predictions than the monthly models.
+  - Random Forest Classifier
+    - Accuracy: 0.883
+    - Recall: 0.947
+  - AdaBoost Classifier
+    - Accuracy: 0.803
+    - Recall: 0.96
+  - XGBoost Classifier
+    - Accuracy: 0.828
+    - Recall: 0.963
+
+These models all had much higher recall than the monthly classification models, meaning they had a relatively small number of false negative classifications. Additionally, all models seemed to rank similar features as important for predicting fire risk. Some of these features included number of residential units, average age of buildings, percent of units that were renter-occupied, and percent of buildings that use oil or kerosene as the primary fuel for heating.
+
+ A random forest regression model was also run on the yearly incident data, predicting the number of incidents that would occur in each tract for a given year. This Random Forest Regressor performed moderately well, with an R-squared score of 0.711 and an adjusted R-squared of 0.698. Additional refining of this regression model is needed to improve the accuracy of predictions.
+ 
 ---
 
 ### Conclusion and Next Steps
 
+Predicting fire incidents on a monthly time scale is a difficult task, and one I would likely need much more research into fire incident data to do well. However, much of the research I came across focused on predicting fire risk on a yearly time scale, identifying areas that were likely to have fires in the next year to target for risk assessments and fire department inspections. Some of the most important factors for predicting fire risk for all models were average building age, percentage of residential units that are renter-occupied, and type of fuel used to heat buildings.
 
+There were a number of additional datasets I wanted to incorporate into this project that I was not able to due to time constraints. Future work on this project would include incorporating Department of Building violations, 311 complaints, more building class and land use data, and FDNY inspections data.
+
+Additionally I would like to use more models to better address the spatial and temporal dimensions of this data. Some models I would like to include are STARMA (a space-time ARMA model), k-Means clustering (to examine the clustering of fire incidents), and a Poisson Regression model (to better predict discrete incident counts over a period of time).
 
 ---
 
