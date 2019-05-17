@@ -7,7 +7,6 @@ Urban fires, especially structural fires, are potentially dangerous incidents th
 This leads us to our problem:
 - Using machine learning how accurately can we predict if a census tract will have a structural fire for a given year?
 - How accurately can we predict the number of structural fires that will occur in a given census tract for a given year?
-
 ---
 
 ### Project Files
