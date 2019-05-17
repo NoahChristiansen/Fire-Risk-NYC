@@ -13,7 +13,7 @@ This leads us to our problem:
 ### Project Files
 
 Here is the workflow order to follow when running through the notebooks:
-- [Bokeh Map of Fire Incidents](link)
+- [Bokeh Map of Fire Incidents](code/bokeh-map-of-fire-incidents)
 - [FDNY Data & Geocoding](link) 
 - [MapPLUTO & Census Tracts](link) 
 - [ACS Housing Data](link) 
