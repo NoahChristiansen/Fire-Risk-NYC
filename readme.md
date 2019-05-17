@@ -13,11 +13,11 @@ This leads us to our problem:
 ### Project Files
 
 Here is the workflow order to follow when running through the notebooks:
-- [Bokeh Map of Fire Incidents](code/bokeh-map-of-fire-incidents)
-- [FDNY Data & Geocoding](link) 
-- [MapPLUTO & Census Tracts](link) 
-- [ACS Housing Data](link) 
-- [Modeling Fire Risk for Census Tracts](link)
+- [Bokeh Map of Fire Incidents](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Code/Bokeh%20Map%20of%20Fire%20Incidents.ipynb)
+- [FDNY Data & Geocoding](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Code/FDNY%20Data%20%26%20Geocoding.ipynb) 
+- [MapPLUTO & Census Tracts](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Code/MapPLUTO%20%26%20Census%20Tracts.ipynb) 
+- [ACS Housing Data](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Code/ACS_Housing_Data.ipynb) 
+- [Modeling Fire Risk for Census Tracts](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Code/Modeling_Fire_Risk_for_Census_Tracts.ipynb)
 
 ---
 
