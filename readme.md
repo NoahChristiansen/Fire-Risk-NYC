@@ -87,3 +87,5 @@ Additionally I would like to use more models to better address the spatial and t
 - [A Dynamic Pipeline for Spatio-Temporal Fire Risk Predicton](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Resources/KDD_2018_FireRisk.pdf) 
   - Final Version of Report: [Predictive Modeling of Building Fire Risk](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Resources/Metro21_FireRisk_FinalReport.pdf)
 - [Incident Analysis and Prediction Using Clustering and Bayesian Network](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Resources/IEEE-SCI-R-33.pdf)
+- [Identifying and Prioritizing Fire Inspections: A Case Study of Predicting Fire Risk in Atlanta](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Resources/MadaioIdentifyingPrioritizingFireInspections.pdf)
+- [Prediction of Natural Gas Leak Events in New York City from Open Data](https://github.com/NoahChristiansen/Fire-Risk-NYC/blob/master/Resources/Prediction%20of%20Natural%20Gas%20Leak%20Events%20in%20New%20York%20City%20from%20Open%20Data.pdf)
